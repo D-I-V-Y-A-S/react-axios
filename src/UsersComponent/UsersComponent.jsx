@@ -20,7 +20,7 @@ const UsersComponent = () => {
 <ul> 
 {Userdata && Userdata.map((iterator)=>(
 <li key={iterator.id}>
-    <p>iterator.name,iterator.address.city</p>
+    <p>{iterator.name},{iterator.address.city}</p>
     </li>
     ))}
 </ul>
